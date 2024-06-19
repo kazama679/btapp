@@ -1,0 +1,198 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3 {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.update-job {
+  border: 1px solid rgb(195, 195, 195);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.update-job-input {
+  padding: 7px;
+  padding-left: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid rgb(138, 138, 138);
+  margin-bottom: 10px;
+}
+
+.update-job-button {
+  padding: 7px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(138, 138, 138);
+  color: white;
+  background-color: blue;
+}
+
+.list-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(195, 195, 195);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.list-check-child {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 4px;
+  padding-bottom: 5px;
+}
+
+.all-job {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 4px;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.job:last-child {
+  border-bottom: none;
+}
+
+.job-child {
+  display: flex;
+  gap: 5px;
+}
+
+.job-checkbox {
+  margin-left: 10px;
+}
+
+.fa-trash {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete-job {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.delete-job-child {
+  color: white;
+  background-color: red;
+  border: 0;
+  border-radius: 4px;
+  height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: grey;
+  height: 100px;
+  color: rgb(126, 134, 97);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal-footer {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-default {
+  background: #ddd;
+}
+
+.btn-danger {
+  background: #d9534f;
+  color: white;
+}
+
+.close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.active{
+  background-color: blue;
+  color: white
+}
